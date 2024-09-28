@@ -1,0 +1,65 @@
+body{
+    /* background-color:white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1681966826227-d008a1cfe9c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+} 
+h1{
+    text-align: center;
+    color: #1264EB;
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal sans-serif;
+}
+p{
+    color:#1264EB;
+}
+#formss{
+    text-align: center;
+}
+#first{
+    /* background-color: whitesmoke; */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-style: solid;
+    border-color: rgb(207, 217, 225);
+    border-width: 3px;
+    border-radius: 30px;
+    width: 400px;
+    text-align: center;
+    margin-top: 60px;;
+    height: 500px;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+#password{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+#submit{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: white;
+    background-color:#1264EB;
+    color: whitesmoke;
+}
+
+#signup{
+    color: #1264EB;
+}
+#signup:hover{
+    color: blueviolet;
+}

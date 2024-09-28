@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('announcementModal');
     const closeBtn = document.querySelector('.close');
-    const websiteContent = document.getElementById('websiteContent');
+    const websiteContent = document.querySelector('body > *:not(#announcementModal)');
 
     closeBtn.onclick = function() {
         modal.style.display = 'none';
@@ -15,3 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 });
+const buttons=document.querySelectorAll(button)
+console.log(buttons);
+
+
